@@ -6,7 +6,7 @@ clear;
 cput.noL=[]; % i use a structure that contain 2 arrays of cpu times
 cput.L=[];   % with loop=L and no loop=noL
 
-for l=1:1000
+for l=1:20
     tstart=tic;
     N=l*1;
     T=10;
