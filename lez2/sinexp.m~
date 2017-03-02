@@ -1,0 +1,5 @@
+clear;
+N=5;
+x=sym('x');
+fx=sin(2*pi*x);
+fs=taylor(,x,'ExpansionPoint',1,'Order',4)
