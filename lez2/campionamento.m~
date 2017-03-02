@@ -4,7 +4,7 @@ clear;
 % samples
 
 cput.noL=[]; % i use a structure that contain 2 arrays of cpu times
-cput.L=[];   % with loop=L and no loop=noL
+cput.L=[];   % with loop=L and no loop=
 
 for l=1:1000
     tstart=tic;
@@ -26,5 +26,5 @@ for l=1:1000
 end
 
 figure(1)
-plot(cput.N,cput.noL,'b',cput.N,cput.L,'r') 
+plot(cput.N,cput.noL,'b',cput.N,cput.L,'r')
 
